@@ -17,12 +17,12 @@
 
     const forwardButton = document.getElementById('forward');
     forwardButton.addEventListener('click', () => {
-      player.seekTo(player.getCurrentTime() + 10);
+      player.seekTo(player.getCurrentTime() + 30);
     });
 
     const rewindButton = document.getElementById('rewind');
     rewindButton.addEventListener('click', () => {
-      player.seekTo(player.getCurrentTime() - 10);
+      player.seekTo(player.getCurrentTime() - 30);
     });
 
     const volumeInput = document.getElementById('volume');
